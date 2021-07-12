@@ -1,0 +1,37 @@
+  ol.level1 {
+    list-style-type: none;
+    counter-reset: chapter;
+  }
+  ol.level2 {
+    list-style-position: outside;
+    list-style-type: none;
+    /*decimal;*/
+    padding: 0 0 0 2.75em;
+    /*page-break-inside: avoid;*/
+  }
+  ul.level2 {
+    list-style-type: none;
+    padding: 0 0 0 2.75em;
+    /*page-break-inside: avoid;*/
+  }
+  ol.level2 li::before {
+    counter-increment: chapter;
+    content: counter(chapter) " ";
+    display: inline-block;
+    text-align: right;
+    width: 1.75em;
+    padding-right: 1em;
+    margin: 0 0 0 -2.75em;
+  }
+  li {
+    page-break-inside: avoid;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+  }
+  span.larger-text {
+    font-size: 120%;
+  }

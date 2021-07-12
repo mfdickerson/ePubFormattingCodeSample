@@ -1,0 +1,48 @@
+img.book_cover {
+  float: left;
+  padding: 5px;
+  width: 9em;
+  height: auto;
+  display: block;
+  page-break-inside: avoid;
+  object-fit: contain;
+}
+li {
+  list-style-type: none; 
+  padding-left: 0;
+  margin-left: 0;
+  /*Do not use "display: inline-block;" or "page-break-inside: avoid;" will not work*/
+}
+ul {
+  padding-left: 0;
+}
+ol {
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+h2, h3, h4 {
+  text-align: center;
+  page-break-after: avoid;
+}
+div.heading_and_description {
+  clear: both;
+  display: block;
+  /*page-break-before: always;*/
+  page-break-inside: avoid;
+}
+  p.other-books {
+  /*color: #000;*/
+  text-indent: 24px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+  /*1st paragraph of chapter*/
+  p.other-books:first-of-type {
+  text-indent: 0;
+}

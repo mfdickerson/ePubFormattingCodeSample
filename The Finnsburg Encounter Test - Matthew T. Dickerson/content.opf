@@ -1,20 +1,21 @@
 <package xmlns:ibooks="http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="calibre: https://calibre-ebook.com ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
   <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
-    <dc:title id="id-1">The Finnsburg Encounter Test</dc:title>
+    <dc:title id="id-1">The Finnsburg Encounter</dc:title>
     <dc:creator id="id-2">Matthew T. Dickerson</dc:creator>
-    <dc:identifier>calibre:10</dc:identifier>
-    <dc:identifier>uuid:6fabff85-0091-4c77-9752-302443c81337</dc:identifier>
+    <dc:identifier>calibre:8</dc:identifier>
+    <dc:identifier>uuid:2cb3657b-34b4-4f7d-be0f-a269d78de6e7</dc:identifier>
     <dc:identifier id="uuid_id">uuid:67b55a29-0a65-452f-9417-68718bc3d193</dc:identifier>
     <dc:language>en</dc:language>
+    <dc:date>1991-02-01T23:05:18+00:00</dc:date>
     <dc:description>&lt;div&gt;
-&lt;p&gt;Sample .ePub Code&lt;/p&gt;&lt;/div&gt;</dc:description>
+&lt;p&gt;Master .epub with SVG Images&lt;/p&gt;&lt;/div&gt;</dc:description>
     <dc:subject>Historical Fiction</dc:subject>
     <dc:subject>Medieval</dc:subject>
     <opf:meta refines="#id-1" property="title-type">main</opf:meta>
-    <opf:meta refines="#id-1" property="file-as">Finnsburg Encounter Test, The</opf:meta>
+    <opf:meta refines="#id-1" property="file-as">Finnsburg Encounter, The</opf:meta>
     <meta name="cover" content="cover"/>
     <meta property="calibre:timestamp" scheme="dcterms:W3CDTF">2021-03-09T01:34:39Z</meta>
-    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2021-07-07T19:43:02Z</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2021-05-19T13:37:38Z</meta>
     <meta property="ibooks:specified-fonts">true</meta>
     <meta property="ibooks:version">1.0.0</meta>
     <opf:meta refines="#id-2" property="role" scheme="marc:relators">aut</opf:meta>
@@ -26,53 +27,102 @@
     <opf:meta property="calibre:author_link_map">{"Matthew T. Dickerson": ""}</opf:meta>
   </metadata>
   <manifest>
-    <item id="titlepage" href="text/cover.xhtml" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
-    <item id="id25" href="text/title_page.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id10" href="text/copyright.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id4" href="text/dedication.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id" href="text/table_of_contents.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id142" href="text/authors_note_1990.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id6" href="text/authors_note_2021.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id5" href="text/map.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-    <item id="id141" href="text/part_I.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-    <item id="id1" href="text/chapter_1.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id2" href="text/chapter_2.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id139" href="text/chapter_3.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id138" href="text/chapter_4.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id137" href="text/chapter_5.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id136" href="text/chapter_6.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id135" href="text/chapter_7.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id21" href="text/about_the_author.xhtml" media-type="application/xhtml+xml"/>
-    <item id="id23" href="text/other_books.xhtml" media-type="application/xhtml+xml"/>
-    <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="titlepage" href="cover.xhtml" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
+    <item id="id25" href="title-page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id10" href="copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id4" href="dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id" href="table-of-contents.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id142" href="authors-note_1990.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id6" href="authors-note_2021.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id5" href="map.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="id141" href="part_i.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="id1" href="chapter_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id2" href="chapter_2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id139" href="chapter_3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id138" href="chapter_4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id137" href="chapter_5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id136" href="chapter_6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id135" href="chapter_7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id134" href="part_ii.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="id133" href="epigraph_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id132" href="chapter_8.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id131" href="chapter_9.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id130" href="chapter_10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id129" href="chapter_11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id128" href="epigraph_2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id127" href="chapter_12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id126" href="chapter_13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id125" href="chapter_14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id124" href="chapter_15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id123" href="part_iii.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="id122" href="chapter_16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id121" href="chapter_17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id120" href="chapter_18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id119" href="chapter_19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id118" href="chapter_20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id117" href="chapter_21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id116" href="chapter_22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id115" href="part_iv.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="id114" href="epigraph_3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id113" href="chapter_23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id112" href="chapter_24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id111" href="chapter_25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id110" href="chapter_26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id19" href="chapter_27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id18" href="chapter_28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id17" href="chapter_29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id16" href="chapter_30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id15" href="chapter_31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id14" href="chapter_32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id13" href="chapter_33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id12" href="chapter_34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id11" href="chapter_35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id41" href="rood-and-the-torc_intro.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id42" href="rood-and-the-torc_epigraph.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id40" href="rood-and-the-torc_chapter_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id21" href="about-the-author.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id23" href="other-books.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="id57" href="styles/about-the-author.css" media-type="text/css"/>
+    <item id="id54" href="styles/copyright.css" media-type="text/css"/>
+    <item id="id58" href="styles/dedication.css" media-type="text/css"/>
+    <item id="id56" href="styles/other-books.css" media-type="text/css"/>
     <item id="page_css" href="styles/page_styles.css" media-type="text/css"/>
     <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
-    <item id="id34" href="images/A_Hobbit_Journey.jpg" media-type="image/jpeg"/>
-    <item id="id20" href="images/a_map_of_friesland.png" media-type="image/png"/>
-    <item id="id36" href="images/A_Tale_Of_Three_Rivers.jpg" media-type="image/jpeg"/>
-    <item id="id50" href="images/AMapOfFriesland.svg" media-type="image/svg+xml"/>
+    <item id="id55" href="styles/table-of-contents.css" media-type="text/css"/>
+    <item id="id59" href="styles/title-page.css" media-type="text/css"/>
+    <item id="id39" href="images/cover_disciple-making.jpeg" media-type="image/jpeg"/>
+    <item id="id30" href="images/cover_downstream.jpg" media-type="image/jpeg"/>
+    <item id="id32" href="images/cover_ents-Elves-and-Eriador.jpg" media-type="image/jpeg"/>
+    <item id="id26" href="images/cover_hammers-and-nails.jpg" media-type="image/jpeg"/>
+    <item id="id34" href="images/cover_hobbit-Journey.jpg" media-type="image/jpeg"/>
+    <item id="id31" href="images/cover_homer-to-harry-potter.jpg" media-type="image/jpeg"/>
+    <item id="id29" href="images/cover_illengond.jpg" media-type="image/jpeg"/>
+    <item id="id35" href="images/cover_mind-and-the-machine.jpg" media-type="image/jpeg"/>
+    <item id="id33" href="images/cover_narnia-and-the-fields-of-arbol.jpg" media-type="image/jpeg"/>
+    <item id="id22" href="images/cover_rood-and-the-torc.jpeg" media-type="image/jpeg"/>
+    <item id="id36" href="images/cover_tale-of-three-rivers.jpg" media-type="image/jpeg"/>
+    <item id="id28" href="images/cover_the-betrayed.jpg" media-type="image/jpeg"/>
+    <item id="id27" href="images/cover_the-gifted.jpg" media-type="image/jpeg"/>
+    <item id="id37" href="images/cover_trout-in-the-desert.jpg" media-type="image/jpeg"/>
+    <item id="id38" href="images/cover_voices-of-rivers.jpg" media-type="image/jpeg"/>
     <item id="cover" href="images/cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
-    <item id="id39" href="images/Disciple_Making.jpeg" media-type="image/jpeg"/>
-    <item id="id30" href="images/Downstream.jpg" media-type="image/jpeg"/>
-    <item id="id32" href="images/Ents_Elves_And_Eriador.jpg" media-type="image/jpeg"/>
-    <item id="id31" href="images/From_Homer_To_Harry_Potter.jpg" media-type="image/jpeg"/>
-    <item id="id26" href="images/Hammers-And-Nails.jpg" media-type="image/jpeg"/>
     <item id="id43" href="images/icon_facebook.png" media-type="image/png"/>
     <item id="id46" href="images/icon_instagram.png" media-type="image/png"/>
     <item id="id45" href="images/icon_twitter.png" media-type="image/png"/>
     <item id="id44" href="images/icon_website.png" media-type="image/png"/>
-    <item id="id29" href="images/Illengond.jpg" media-type="image/jpeg"/>
-    <item id="id24" href="images/matthew_dickerson.jpg" media-type="image/jpeg"/>
-    <item id="id33" href="images/Narnia_And_The_Fields_Of_Arbol.jpg" media-type="image/jpeg"/>
-    <item id="id3" href="images/PartI_Hwitstan_Transparent.png" media-type="image/png"/>
-    <item id="id51" href="images/PartI-Hwitstan.svg" media-type="image/svg+xml"/>
-    <item id="id28" href="images/The_Betrayed.jpg" media-type="image/jpeg"/>
-    <item id="id27" href="images/The_Gifted.jpg" media-type="image/jpeg"/>
-    <item id="id35" href="images/The_Mind_And_The_Machine.jpg" media-type="image/jpeg"/>
-    <item id="id22" href="images/The_Rood_And_The_Torc.jpeg" media-type="image/jpeg"/>
-    <item id="id38" href="images/The_Voices_Of_Rivers.jpg" media-type="image/jpeg"/>
-    <item id="id37" href="images/Trout_In_The_Desert.jpg" media-type="image/jpeg"/>
+    <item id="id20" href="images/map-of-friesland.png" media-type="image/png"/>
+    <item id="id50" href="images/map-of-friesland.svg" media-type="image/svg+xml"/>
+    <item id="id24" href="images/matthew-dickerson.jpg" media-type="image/jpeg"/>
+    <item id="id3" href="images/parti-hwitstan_transparent.png" media-type="image/png"/>
+    <item id="id51" href="images/parti-hwitstan.svg" media-type="image/svg+xml"/>
+    <item id="id7" href="images/partii-the-thane_transparent.png" media-type="image/png"/>
+    <item id="id52" href="images/partii-the-thane.svg" media-type="image/svg+xml"/>
+    <item id="id8" href="images/partiii-the-monk_transparent.png" media-type="image/png"/>
+    <item id="id53" href="images/partiii-the-monk.svg" media-type="image/svg+xml"/>
+    <item id="id9" href="images/partiv-the-fight-at-finnsburg_transparent.png" media-type="image/png"/>
+    <item id="id49" href="images/partiv-the-fight-at-finnsburg.svg" media-type="image/svg+xml"/>
     <item id="id48" href="fonts/UnifrakturMaguntia-Regular.ttf" media-type="application/vnd.ms-opentype"/>
     <item id="id47" href="com.apple.ibooks.display-options.xml" media-type="application/xml"/>
   </manifest>
@@ -93,16 +143,53 @@
     <itemref idref="id137"/>
     <itemref idref="id136"/>
     <itemref idref="id135"/>
+    <itemref idref="id134"/>
+    <itemref idref="id133"/>
+    <itemref idref="id132"/>
+    <itemref idref="id131"/>
+    <itemref idref="id130"/>
+    <itemref idref="id129"/>
+    <itemref idref="id128"/>
+    <itemref idref="id127"/>
+    <itemref idref="id126"/>
+    <itemref idref="id125"/>
+    <itemref idref="id124"/>
+    <itemref idref="id123"/>
+    <itemref idref="id122"/>
+    <itemref idref="id121"/>
+    <itemref idref="id120"/>
+    <itemref idref="id119"/>
+    <itemref idref="id118"/>
+    <itemref idref="id117"/>
+    <itemref idref="id116"/>
+    <itemref idref="id115"/>
+    <itemref idref="id114"/>
+    <itemref idref="id113"/>
+    <itemref idref="id112"/>
+    <itemref idref="id111"/>
+    <itemref idref="id110"/>
+    <itemref idref="id19"/>
+    <itemref idref="id18"/>
+    <itemref idref="id17"/>
+    <itemref idref="id16"/>
+    <itemref idref="id15"/>
+    <itemref idref="id14"/>
+    <itemref idref="id13"/>
+    <itemref idref="id12"/>
+    <itemref idref="id11"/>
+    <itemref idref="id41"/>
+    <itemref idref="id42"/>
+    <itemref idref="id40"/>
     <itemref idref="id21"/>
     <itemref idref="id23"/>
   </spine>
   <guide>
-    <reference type="cover" href="text/cover.xhtml" title="Cover"/>
-    <reference type="title-page" title="Title Page" href="text/title_page.xhtml"/>
-    <reference type="copyright-page" title="Copyright page" href="text/copyright.xhtml"/>
-    <reference type="dedication" title="Dedication" href="text/dedication.xhtml"/>
-    <reference type="toc" title="Table of Contents" href="text/table_of_contents.xhtml"/>
-    <reference type="preface" title="Preface" href="text/authors_note_1990.xhtml"/>
-    <reference type="text" title="Text" href="text/map.xhtml"/>
+    <reference type="cover" href="cover.xhtml" title="Cover"/>
+    <reference type="title-page" title="Title Page" href="title-page.xhtml"/>
+    <reference type="copyright-page" title="Copyright Page" href="copyright.xhtml"/>
+    <reference type="dedication" title="Dedication" href="dedication.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="table-of-contents.xhtml"/>
+    <reference type="preface" title="Preface" href="authors-note_1990.xhtml"/>
+    <reference type="text" title="Start of Content" href="map.xhtml"/>
   </guide>
 </package>

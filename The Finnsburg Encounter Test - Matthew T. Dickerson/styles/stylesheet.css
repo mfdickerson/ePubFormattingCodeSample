@@ -1,57 +1,24 @@
-.title-page_title {
-  font-size: 4.5em;
-  font-weight: bold;
-  line-height: 1em;
-  /*font-style: italic;*/
-  margin: 10% 7.5% 0 7.5%;
-  /*15%*/
-  text-align: center;
-  page-break-inside: avoid;
-}
-.title-page_subtitle {
-  font-size: 3em;
-  font-weight: bold;
-  line-height: 1em;
-  /*font-style: italic;*/
-  margin: 0% 10% 0 10%;
-  text-align: center;
-  page-break-inside: avoid;
-}
-.title-page_series {
-  font-size: 1.2em;
-  line-height: 1em;
-  font-weight: bold;
-  text-align: center;
-  page-break-inside: avoid;
-}
-.title-page_author {
-  font-size: 2em;
-  font-style: italic;
-  margin-top: 15%;
-  /*20%*/
-  text-align: center;
-  page-break-inside: avoid;
-}
 span.font-style_normal {
   font-style: normal;
 }
 header.part-heading {
   text-align: center;
   font-size: 100%;
-  margin: 20% 7.5% 0% 7.5%;
-  /*30% 10% 0% 10%;*/
+  margin: 20% 7.5% 0% 7.5%; /*30% 10% 0% 10%;*/
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 p.part-heading_number {
+  text-align: center;
   font-size: 250%;
 }
 h1.part-heading_name {
+  text-align: center;
   font-size: 550%;
-  margin-top: 7.5%;
-  /*10%*/
+  margin-top: 7.5%; /*10%*/
   line-height: 1em;
 }
+
 header.chapter-heading {
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -72,6 +39,7 @@ h2.chapter-heading_title {
   page-break-inside: avoid;
   page-break-after: avoid;
 }
+
 h2.section-name {
   text-align: center;
   font-size: 130%;
@@ -83,7 +51,7 @@ h2.section-name {
 /*Body text should not have an imposed font color throughout the book. If you prefer to use imposed font color in some sections of your book, do not use too light or too dark a color. Light colors will not display with enough contrast on devices set to white backgrounds or on E-reader devices. Dark colors will not display well on devices set to black backgrounds. See the W3C recommendation for maintaining a readable contrast ratio between text and background colors. For grays, use colors within the hex value range of #666 to #999.*/
 main > p.body {
   /*color: #000;*/
-  text-indent: 1.5em;
+  text-indent: 24px;
   display: block;
   margin: 0;
   padding: 0;
@@ -158,8 +126,8 @@ div.stanza {
 div.stanza p.in-chapter-poetry {
   display: block;
   font-style: italic;
-  text-indent: -3em;
-  margin: 0 0 0 6em;
+  text-indent: -49px;
+  margin: 0 0 0 96px;
   padding: 0;
   page-break-inside: avoid;
 }
@@ -170,7 +138,7 @@ div.epigraph {
 }
 p.epigraph {
   font-style: italic;
-  text-indent: 1.5em;
+  text-indent: 24px;
   display: block;
   margin: 0;
   padding: 0;
@@ -178,13 +146,13 @@ p.epigraph {
 div.epigraph p.epigraph_poetry {
   display: block;
   font-style: italic;
-  text-indent: -3em;
-  margin: 0 0 0 9em;
+  text-indent: -48px;
+  margin: 0 0 0 144px;
   padding: 0;
 }
 div.epigraph p.epigraph_author {
   display: block;
-  text-indent: 12em;
+  text-indent: 192px;
   margin: 1em 0 0 0;
   padding: 0;
   page-break-before: avoid;
@@ -236,6 +204,7 @@ div.part-image-centered {
   page-break-before: avoid;
   page-break-inside: avoid;
 }
+
 svg.part-image-centered {
   fill: currentColor;
   color: currentColor;
@@ -243,11 +212,14 @@ svg.part-image-centered {
   display: block;
   object-fit: contain;
 }
+
 img.part-image-centered_fallback {
   width: 100%;
   display: block;
   object-fit: contain;
 }
+
+
 /* Hyphen and pagination Fixer */
 /* Note: Do not try on the Kindle, it does not recognize the hyphens property */
 h1, h2, h3, h4, h5, h6 {
