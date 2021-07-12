@@ -1,0 +1,23 @@
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+}
+/* unvisited link */
+a:link {
+  color: inherit;
+}
+/* visited link */
+a:visited {
+  color: inherit;
+}
+/* mouse over link */
+a:hover {
+  color: inherit;
+}
+/* selected link */
+a:active {
+  color: inherit;
+}
+a {
+  text-decoration: none;
+}

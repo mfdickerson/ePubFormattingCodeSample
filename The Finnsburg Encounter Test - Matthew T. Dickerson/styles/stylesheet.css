@@ -1,0 +1,257 @@
+.title-page_title {
+  font-size: 4.5em;
+  font-weight: bold;
+  line-height: 1em;
+  /*font-style: italic;*/
+  margin: 10% 7.5% 0 7.5%;
+  /*15%*/
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_subtitle {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  /*font-style: italic;*/
+  margin: 0% 10% 0 10%;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_series {
+  font-size: 1.2em;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_author {
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 15%;
+  /*20%*/
+  text-align: center;
+  page-break-inside: avoid;
+}
+span.font-style_normal {
+  font-style: normal;
+}
+header.part-heading {
+  text-align: center;
+  font-size: 100%;
+  margin: 20% 7.5% 0% 7.5%;
+  /*30% 10% 0% 10%;*/
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+p.part-heading_number {
+  font-size: 250%;
+}
+h1.part-heading_name {
+  font-size: 550%;
+  margin-top: 7.5%;
+  /*10%*/
+  line-height: 1em;
+}
+header.chapter-heading {
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+p.chapter-heading_number {
+  text-align: center;
+  font-size: 130%;
+  margin-top: 20%;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+h2.chapter-heading_title {
+  text-align: center;
+  font-size: 300%;
+  line-height: 1em;
+  /*font-style: italic;*/
+  margin: 5% 7.5% 0% 7.5%;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+h2.section-name {
+  text-align: center;
+  font-size: 130%;
+  margin: 25% 10% 0% 10%;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+/*Body text must use the default font size (1em) and line height. Body text should not use the <font size="…"> tag or the font-size and line-height attributes in CSS.*/
+/*Body text should not have an imposed font color throughout the book. If you prefer to use imposed font color in some sections of your book, do not use too light or too dark a color. Light colors will not display with enough contrast on devices set to white backgrounds or on E-reader devices. Dark colors will not display well on devices set to black backgrounds. See the W3C recommendation for maintaining a readable contrast ratio between text and background colors. For grays, use colors within the hex value range of #666 to #999.*/
+main > p.body {
+  /*color: #000;*/
+  text-indent: 1.5em;
+  display: block;
+  margin: 0;
+  padding: 0;
+  clear: left;
+}
+/*1st paragraph of chapter*/
+main > p:first-of-type {
+  text-indent: 0;
+  margin-top: 7.5%;
+  clear: none;
+}
+/*2nd paragraph should not wrap around drop case*/
+/*
+main > p:nth-child(2) {
+  clear: left;
+}
+*/
+@font-face {
+  src: url(../fonts/UnifrakturMaguntia-Regular.ttf) format(truetype);
+  font-family: "UnifrakturMaguntia";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-variant: normal;
+}
+/*Drop case*/
+main > p:nth-child(1)::first-letter {
+  font-size: 4.25em;
+  font-family: "UnifrakturMaguntia", serif;
+  float: left;
+  line-height: 1;
+  margin-top: -0.05;
+  margin-bottom: -0.175em;
+  margin-right: 0.025em;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: text-top;
+}
+/*
+main > p:nth-child(1)::first-letter {
+  font-size: 4.57em;
+  font-family: serif;
+  font-weight: bolder;
+  float: left;
+  line-height: 1;
+  margin-top: -0.125em;
+  margin-bottom: -0.125em;
+}
+*/
+@media amzn-kf8 {
+  main > p:nth-child(1)::first-letter {
+    font-family: "UnifrakturMaguntia", /*cursive,*/ serif;
+    font-weight: normal;
+    font-size: 320%;
+    float: left;
+    margin-top: -0.3225em;
+    margin-bottom: -0.3245em;
+  }
+}
+@media amzn-mobi {
+  main > p:nth-child(1)::first-letter {
+    font-family: "UnifrakturMaguntia", /*cursive,*/ serif;
+    font-size: 3em;
+    font-weight: bold;
+  }
+}
+/*Poetry*/
+div.stanza {
+  margin: 1em 0 1em 0;
+  page-break-inside: avoid;
+}
+div.stanza p.in-chapter-poetry {
+  display: block;
+  font-style: italic;
+  text-indent: -3em;
+  margin: 0 0 0 6em;
+  padding: 0;
+  page-break-inside: avoid;
+}
+div.epigraph {
+  margin: 40% 0 0 0;
+  font-style: italic;
+  page-break-inside: avoid;
+}
+p.epigraph {
+  font-style: italic;
+  text-indent: 1.5em;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+div.epigraph p.epigraph_poetry {
+  display: block;
+  font-style: italic;
+  text-indent: -3em;
+  margin: 0 0 0 9em;
+  padding: 0;
+}
+div.epigraph p.epigraph_author {
+  display: block;
+  text-indent: 12em;
+  margin: 1em 0 0 0;
+  padding: 0;
+  page-break-before: avoid;
+}
+/*Make a div style for seperator*/
+.separator {
+  text-align: center;
+  font-weight: bold;
+  font-size: 250%;
+  margin: 0.5em 0 0.5em 0;
+}
+p.soft-scene-break {
+  font-size: 0.5em;
+}
+hr.decorative-line {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border: 0.09375em solid;
+  width: 100%;
+}
+.page-body {
+  font-family: serif;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+/* "signature" class used in author's notes"*/
+div.signature {
+  margin-top: 1em;
+  font-style: italic;
+  text-align: right;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+}
+p.signature {
+  display: block;
+  font-style: italic;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  page-break-before: avoid;
+}
+div.part-image-centered {
+  width: 60%;
+  margin: 10% 20% 0 20%;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+}
+svg.part-image-centered {
+  fill: currentColor;
+  color: currentColor;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+img.part-image-centered_fallback {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+/* Hyphen and pagination Fixer */
+/* Note: Do not try on the Kindle, it does not recognize the hyphens property */
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
