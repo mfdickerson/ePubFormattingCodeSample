@@ -1,0 +1,19 @@
+img.social-icon {
+  height: 1.1em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.375em 0 0.5em;
+}
+div.social-links {
+  margin-top: 1em;
+  text-align: center;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+a.social-link {
+  white-space: nowrap;
+  -webkit-hyphens: none;
+  hyphens: none;
+}

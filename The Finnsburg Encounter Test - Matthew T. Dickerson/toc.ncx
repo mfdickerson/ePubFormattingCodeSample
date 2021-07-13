@@ -3,24 +3,27 @@
   <head>
     <meta name="dtb:uid" content="uuid:67b55a29-0a65-452f-9417-68718bc3d193"/>
     <meta name="dtb:depth" content="3"/>
-    <meta name="dtb:generator" content="calibre (5.15.0)"/>
-    <meta name="dtb:totalPageCount" content="0"/>
-    <meta name="dtb:maxPageNumber" content="0"/>
+    <meta name="dtb:generator" content="calibre (5.14.0)"/>
+    <meta name="dtb:totalPageCount" content="373"/>
+    <meta name="dtb:maxPageNumber" content="373"/>
   </head>
   <docTitle>
-    <text>The Finnsburg Encounter Test</text>
+    <text>The Finnsburg Encounter</text>
   </docTitle>
+  <docAuthor>
+    <text>Matthew T. Dickerson</text>
+  </docAuthor>
   <navMap>
     <navPoint id="frontmatter" playOrder="1">
       <navLabel>
-        <text>Frontmatter</text>
+        <text>Front Matter</text>
       </navLabel>
-      <content src="text/title_page.xhtml#pagei"/>
+      <content src="text/title-page.xhtml#pagei"/>
       <navPoint id="title-page" playOrder="1">
         <navLabel>
           <text>Title Page</text>
         </navLabel>
-        <content src="text/title_page.xhtml#pagei"/>
+        <content src="text/title-page.xhtml#pagei"/>
       </navPoint>
       <navPoint id="copyright-page" playOrder="4">
         <navLabel>
@@ -39,14 +42,14 @@
         <navLabel>
           <text>Table of Contents</text>
         </navLabel>
-        <content src="table_of_contents.xhtml#pagevii"/>
+        <content src="text/table_of_contents.xhtml#pagevii"/>
       </navPoint>
       -->
       <navPoint id="authors-note" playOrder="9">
         <navLabel>
           <text>Author’s Note</text>
         </navLabel>
-        <content src="text/authors_note_1990.xhtml#pageix"/>
+        <content src="text/authors-note_1990.xhtml#pageix"/>
       </navPoint>
     </navPoint>
     <navPoint id="num_2" playOrder="12">
@@ -59,7 +62,7 @@
       <navLabel>
         <text>Part I: Hwitstan</text>
       </navLabel>
-      <content src="text/part_I.xhtml#page15"/>
+      <content src="text/part_i.xhtml#page15"/>
       <navPoint id="num_4" playOrder="17">
         <navLabel>
           <text>Of Finn, Son of Folcwalda</text>
@@ -103,35 +106,41 @@
         <content src="text/chapter_7.xhtml#page73"/>
       </navPoint>
     </navPoint>
-    <navPoint id="num_43" playOrder="371">
+    <!---->
+    <navPoint id="backmatter" playOrder="81">
       <navLabel>
-        <text>About the Author</text>
+        <text>Back Matter</text>
       </navLabel>
-      <content src="text/about_the_author.xhtml#pageccclxxi"/>
-    </navPoint>
-    <navPoint id="num_44" playOrder="373">
-      <navLabel>
-        <text>Other Books</text>
-      </navLabel>
-      <content src="text/other_books.xhtml#pageccclxxiii"/>
+      <content src="text/about-the-author.xhtml#pageccclxxi"/>
+      <navPoint id="num_43" playOrder="81">
+        <navLabel>
+          <text>About the Author</text>
+        </navLabel>
+        <content src="text/about-the-author.xhtml#pageccclxxi"/>
+      </navPoint>
+      <navPoint id="num_44" playOrder="83">
+        <navLabel>
+          <text>Other Books</text>
+        </navLabel>
+        <content src="text/other-books.xhtml#pageccclxxiii"/>
+      </navPoint>
     </navPoint>
   </navMap>
-
-
+  
   <pageList>
-
+    <!--No Page 1 or 2 Included-->
     <pageTarget id="pagei" type="normal" value="1" playOrder="1">
       <navLabel><text>i</text></navLabel>
-      <content src="text/title_page.xhtml#pagei"/>
+      <content src="text/title-page.xhtml#pagei"/>
     </pageTarget>
     <pageTarget id="pageii" type="normal" value="2" playOrder="2">
       <navLabel><text>ii</text></navLabel>
-      <content src="text/title_page.xhtml#pageii"/>
+      <content src="text/title-page.xhtml#pageii"/>
     </pageTarget>
 
     <pageTarget id="pageiii" type="normal" value="3" playOrder="3">
       <navLabel><text>iii</text></navLabel>
-      <content src="text/title_page.xhtml#pageiii"/>
+      <content src="text/title-page.xhtml#pageiii"/>
     </pageTarget>
     <pageTarget id="pageiv" type="normal" value="4" playOrder="4">
       <navLabel><text>iv</text></navLabel>
@@ -147,18 +156,22 @@
     </pageTarget>
     <pageTarget id="pagevii" type="normal" value="7" playOrder="7">
       <navLabel><text>vii</text></navLabel>
-      <content src="text/table_of_contents.xhtml#pagevii"/>
+      <content src="text/table-of-contents.xhtml#pagevii"/>
     </pageTarget>
-
+    <pageTarget id="pageviii" type="normal" value="8" playOrder="8">
+      <navLabel><text>viii</text></navLabel>
+      <content src="text/table-of-contents.xhtml#pageviii"/>
+    </pageTarget>
     <pageTarget id="pageix" type="normal" value="9" playOrder="9">
       <navLabel><text>ix</text></navLabel>
-      <content src="text/authors_note_1990.xhtml#pageix"/>
+      <content src="text/authors-note_1990.xhtml#pageix"/>
     </pageTarget>
     <pageTarget id="pagex" type="normal" value="10" playOrder="10">
       <navLabel><text>x</text></navLabel>
-      <content src="text/authors_note_1990.xhtml#pagex"/>
+      <content src="text/authors-note_1990.xhtml#pagex"/>
     </pageTarget>
-
+    
+    <!--No Page 11 Included-->
     <pageTarget id="pagexi" type="normal" value="11" playOrder="11">
       <navLabel><text>11</text></navLabel>
       <content src="text/map.xhtml#page11"/>
@@ -178,11 +191,11 @@
     </pageTarget>
     <pageTarget id="page15" type="normal" value="15" playOrder="15">
       <navLabel><text>15</text></navLabel>
-      <content src="text/part_I.xhtml#page15"/>
+      <content src="text/part_i.xhtml#page15"/>
     </pageTarget>
     <pageTarget id="page16" type="normal" value="16" playOrder="16">
       <navLabel><text>16</text></navLabel>
-      <content src="text/part_I.xhtml#page16"/>
+      <content src="text/part_i.xhtml#page16"/>
     </pageTarget>
     <pageTarget id="page17" type="normal" value="17" playOrder="17">
       <navLabel><text>17</text></navLabel>
@@ -440,17 +453,20 @@
       <navLabel><text>80</text></navLabel>
       <content src="text/chapter_7.xhtml#page80"/>
     </pageTarget>
-    <pageTarget id="pageccclxxi" type="normal" value="371" playOrder="371">
+    
+    <!-- Removed pages not included in Sample Code-->
+    
+    <pageTarget id="pageccclxxi" type="normal" value="81" playOrder="81">
       <navLabel><text>ccclxxi</text></navLabel>
-      <content src="text/about_the_author.xhtml#pageccclxxi"/>
+      <content src="text/about-the-author.xhtml#pageccclxxi"/>
     </pageTarget>
-    <pageTarget id="pageccclxxii" type="normal" value="372" playOrder="372">
+    <pageTarget id="pageccclxxii" type="normal" value="82" playOrder="82">
       <navLabel><text>ccclxxii</text></navLabel>
-      <content src="text/about_the_author.xhtml#pageccclxxii"/>
+      <content src="text/about-the-author.xhtml#pageccclxxii"/>
     </pageTarget>
-    <pageTarget id="pageccclxxiii" type="normal" value="373" playOrder="373">
+    <pageTarget id="pageccclxxiii" type="normal" value="83" playOrder="83">
       <navLabel><text>ccclxxiii</text></navLabel>
-      <content src="text/other_books.xhtml#pageccclxxiii"/>
+      <content src="text/other-books.xhtml#pageccclxxiii"/>
     </pageTarget>    
   </pageList>
 </ncx>

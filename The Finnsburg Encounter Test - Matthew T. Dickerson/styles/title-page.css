@@ -1,0 +1,37 @@
+.title-page_title {
+  font-size: 4.5em;
+  font-weight: bold;
+  line-height: 1em;
+  /*font-style: italic;*/
+  margin: 10% 7.5% 0 7.5%; /*15%*/
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_subtitle {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
+  /*font-style: italic;*/
+  margin: 0% 10% 0 10%;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_series {
+  font-size: 1.2em;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.title-page_author {
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 15%; /*20%*/
+  text-align: center;
+  page-break-inside: avoid;
+}
+p.book_intro {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}

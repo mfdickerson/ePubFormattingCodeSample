@@ -2,22 +2,27 @@
   margin-bottom: 5pt;
   margin-top: 5pt;
 }
+
 /* unvisited link */
 a:link {
-  color: inherit;
+    color: inherit;
 }
+
 /* visited link */
 a:visited {
-  color: inherit;
+    color: inherit;
 }
+
 /* mouse over link */
 a:hover {
-  color: inherit;
+    color: inherit;
 }
+
 /* selected link */
 a:active {
-  color: inherit;
+    color: inherit;
 }
-a {
-  text-decoration: none;
+
+a{
+	text-decoration: none;
 }

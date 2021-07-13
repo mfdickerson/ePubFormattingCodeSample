@@ -1,0 +1,12 @@
+div.copyright {
+  page-break-inside: avoid;
+}
+div.loc_cip {
+  page-break-inside: avoid;
+}
+p.loc_cip {
+  text-indent: -16px;
+  padding-left: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
