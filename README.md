@@ -66,17 +66,29 @@ eBookBlog:
 
 http://www.paulsalvette.com/2012/04/previous-post-page-breaks-similar-to.html
 
-Drop Caps:
+# Drop Caps: #
+## My Approach ##
 
-https://nachtimwald.com/2011/08/02/formatting-tip-big-first-letter/
-
-https://www.thebookdesigner.com/2017/04/fancy-free-some-fun-css-tricks-for-ebooks/
-
-https://product.voxmedia.com/2019/6/17/18524029/the-ballad-of-drop-caps-and-design-systems
-
-Line Height: https://css-tricks.com/how-to-tame-line-height-in-css/
-
-Inclusively Hidden: https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
+```
+main > p:nth-child(1)::first-letter {
+  font-size: 4.25em;
+  font-family: "UnifrakturMaguntia", serif;
+  float: left;
+  line-height: 1;
+  margin-top: -0.05;
+  margin-bottom: -0.175em;
+  margin-right: 0.025em;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: text-top;
+}
+```
+## Other Helpful Resources: ##
+* https://nachtimwald.com/2011/08/02/formatting-tip-big-first-letter/
+* https://www.thebookdesigner.com/2017/04/fancy-free-some-fun-css-tricks-for-ebooks/
+* https://product.voxmedia.com/2019/6/17/18524029/the-ballad-of-drop-caps-and-design-systems
+* Line Height: https://css-tricks.com/how-to-tame-line-height-in-css/
+* Inclusively Hidden: https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
 
 
 
