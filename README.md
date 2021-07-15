@@ -10,13 +10,14 @@ http://www.unrulyguides.com/2015/02/ebook-formatting-tip-changing-font-size-css/
 
 Conversion & trouble shooting: http://www.paulsalvette.com/2011/08/calibre-tutorial-ebook-formatting.html
 
-Formatting Poetry: http://epubsecrets.com/formatting-poetry-in-epub-part-1.php
+
 
 Helpful formatting: https://www.thebookdesigner.com/2017/01/elements-of-style-css-for-ebooks2/
 
-EMs vs %: https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent
+
 
 Counters + lists: https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/
+
 
 
 
@@ -88,7 +89,7 @@ SVG Fallback: http://davidensinger.com/2013/04/inline-svg-with-png-fallback/
 
 - https://codepen.io/tigt/post/inline-svg-fallback-no-javascript-required
 
-foot notes/linear reading: https://ebooks.stackexchange.com/questions/613/epub-opf-spine-element-how-to-exclude-an-html-file-from-linear-reading-order
+
 
 
  
@@ -96,27 +97,33 @@ foot notes/linear reading: https://ebooks.stackexchange.com/questions/613/epub-o
 
 # SVG Tricks:#
 
-* https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
-* https://css-tricks.com/change-color-of-svg-on-hover/
-* https://css-tricks.com/svg-properties-and-css/
-* https://css-tricks.com/cascading-svg-fill-color/
-* https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
-* https://css-tricks.com/using-svg/
-* https://css-tricks.com/gotchas-on-getting-svg-into-production/
-* https://css-tricks.com/accessible-svgs-high-contrast-mode/
-* http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/
 * https://www.epubble.com/svg-wrappers-for-kindle/6/
 * https://www.oreilly.com/library/view/html5-for-publishers/9781449320065/ch05.html
 * https://github.com/oreillymedia/svg-essentials-examples
 * Kobo SVG Guidelines: https://github.com/kobolabs/epub-spec#scalable-vector-graphics-svg
 
-svg mask element: https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element/53336754#53336754
+
+* https://css-tricks.com/using-svg/
+* https://css-tricks.com/gotchas-on-getting-svg-into-production/
+* https://css-tricks.com/accessible-svgs-high-contrast-mode/
+
+## Responsive SVG/Color Changing SVG #
+* https://css-tricks.com/change-color-of-svg-on-hover/
+* https://css-tricks.com/svg-properties-and-css/
+* https://css-tricks.com/cascading-svg-fill-color/
+* http://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/
+* SVG mask element: https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element/53336754#53336754
+* Masking: https://stackoverflow.com/questions/56885405/how-to-set-width-and-height-of-mask-image-in-css
 
 ## SVG Fallbacks ##
+* https://css-tricks.com/a-complete-guide-to-svg-fallbacks/
+* Background: https://css-tricks.com/stacking-order-of-multiple-backgrounds/
 
-Background: https://css-tricks.com/stacking-order-of-multiple-backgrounds/
+# Other eBook Elements #
+* Font size best practices: https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent
+* Foot notes/linear reading: https://ebooks.stackexchange.com/questions/613/epub-opf-spine-element-how-to-exclude-an-html-file-from-linear-reading-order
+* Poetry: http://epubsecrets.com/formatting-poetry-in-epub-part-1.php
 
-Masking: https://stackoverflow.com/questions/56885405/how-to-set-width-and-height-of-mask-image-in-css
 
 # Other eBook Formats #
 * _MOBI_: https://wiki.mobileread.com/wiki/MOBI#Guidelines
